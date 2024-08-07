@@ -1,6 +1,7 @@
 
+let popup = document.querySelector(".popup");
 document.querySelector('.menu').addEventListener("click",(e)=>{
-    document.querySelector(".popup").style.display = "block";
+    popup.style.display = "block";
 })
 
 let skillstab = document.querySelector('.skillstab');
@@ -39,3 +40,7 @@ const cursorInfo = document.querySelector('body');
             const y = event.clientY;
             document.querySelector('.cursor-info').textContent = `X: ${x}, Y: ${y}`;
         });
+
+        document.querySelector(".close").addEventListener("click",(e)=>{
+           popup.style.display = "none";
+        })
