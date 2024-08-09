@@ -35,12 +35,9 @@ document.querySelector('.edu').addEventListener("click",(e)=>{
 
 const cursorInfo = document.querySelector('body');
 
-        document.addEventListener('mousemove', (event) => {
-            const x = event.clientX;
-            const y = event.clientY;
-            document.querySelector('.cursor-info').textContent = `X: ${x}, Y: ${y}`;
-        });
+var cursor = document.querySelector(".cur");
 
-        document.querySelector(".close").addEventListener("click",(e)=>{
-           popup.style.display = "none";
-        })
+cursorInfo.addEventListener("mousemove", function(dets){
+    cursor.style.left = dets.x+"px";
+   cursor.style.top = dets.y+"px";
+})
