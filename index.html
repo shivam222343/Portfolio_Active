@@ -22,6 +22,7 @@
 </head>
 
 <body class="h-full w-full bg-zinc-900 duration-500 overflow-x-hidden">
+    <div class="cur h-4 w-4 animate-spin rounded-full absolute z-50"></div>
     <!--page1-->
     <div id="page1"
         class="page1 p-[3vw] h-auto w-full flex flex-col items-center bg-gradient-to-tr from-black to-[#000419]">
@@ -113,8 +114,48 @@
             <h1 class="skills cursor-pointer text-red-500 hover:text-red-500 duration-500">Skills</h1>
             <h1 class="edu cursor-pointer hover:text-red-500 duration-500">Education</h1>
         </div>
-        <div class="skillstab rounded-xl p-5 bg-gradient-to-tr from-[#000419] to-blue-950 mt-10 h-[600px] w-full">
+        <div class="skillstab rounded-xl p-5 bg-gradient-to-tr from-[#000419] to-blue-950 mt-10 h-[auto] w-full">
             <h1 class="cursor-pointer text-xl font-bold  hover:text-red-500 duration-500">Skills</h1>
+            <div class="skills-Content gap-10 flex-wrap flex justify-center items-center">
+                <div class="tab1 p-3 h-[200px] w-[80vw] lg:max-w-[400px] border-2 mt-5 rounded-xl">
+                    <h1 class="text-lg text-green-500  font-bold">Tecnhical Skills</h1>
+                    <div class="smtbs mt-3 p-2 gap-2 flex flex-wrap ">
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">React JS </div> 
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">DSA in C </div>
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">Javascript </div>
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">C programming </div>
+                    </div>
+                </div>
+                <div class="tab1 p-3 h-[200px] w-[80vw] lg:max-w-[400px] border-2 mt-5 rounded-xl">
+                    <h1 class="text-lg text-green-500  font-bold">Tecnhical Skills</h1>
+                    <div class="smtbs mt-3 p-2 gap-2 flex flex-wrap ">
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">React JS </div> 
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">DSA in C </div>
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">Javascript </div>
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">C programming </div>
+                    </div>
+                </div>
+                <div class="tab1 p-3 h-[200px] w-[80vw] lg:max-w-[400px] border-2 mt-5 rounded-xl">
+                    <h1 class="text-lg text-green-500  font-bold">Tecnhical Skills</h1>
+                    <div class="smtbs mt-3 p-2 gap-2 flex flex-wrap ">
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">React JS </div> 
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">DSA in C </div>
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">Javascript </div>
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">C programming </div>
+                    </div>
+                </div>
+                <div class="tab1 p-3 h-[200px] w-[80vw] lg:max-w-[400px] border-2 mt-5 rounded-xl">
+                    <h1 class="text-lg text-green-500  font-bold">Tecnhical Skills</h1>
+                    <div class="smtbs mt-3 p-2 gap-2 flex flex-wrap ">
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">React JS </div> 
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">DSA in C </div>
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">Javascript </div>
+                        <div class="text-lg text-white duration-200 hover:border-cyan-300 hover:text-zinc-400 border-[1px] px-3 py-1 rounded-xl">C programming </div>
+                    </div>
+                </div>
+                <div class="tab2"></div>
+                <div class="tab3"></div>
+            </div>
         </div>
         <div class="edutab p-5 rounded-xl bg-gradient-to-br hidden to-[#000419] from-blue-950 mt-10 h-[600px] w-full">
             <h1 class="cursor-pointer text-xl font-bold hover:text-red-500 duration-500">Education</h1>
@@ -122,20 +163,7 @@
     </div>
 
     <!--Page 3-->
-    <div id="page3"
-        class="page3 h-[100vh] p-[3vw] w-full flex flex-col items-center bg-gradient-to-tr from-black to-[#000419]">
-        <div
-            class="tab1 bg-gradient-to-tl font-bold flex p-7 gap-10 items-center from-[#000419] to-blue-950 h-14 w-full rounded-lg">
-            <h1 class="skills cursor-pointer text-red-500 hover:text-red-500 duration-500">Skills</h1>
-            <h1 class="edu cursor-pointer hover:text-red-500 duration-500">Education</h1>
-        </div>
-        <div class="skillstab rounded-xl p-5 bg-gradient-to-tr from-[#000419] to-blue-950 mt-10 h-[600px] w-full">
-            <h1 class="cursor-pointer text-xl font-bold  hover:text-red-500 duration-500">Skills</h1>
-        </div>
-        <div class="edutab p-5 rounded-xl bg-gradient-to-br hidden to-[#000419] from-blue-950 mt-10 h-[600px] w-full">
-            <h1 class="cursor-pointer text-xl font-bold hover:text-red-500 duration-500">Education</h1>
-        </div>
-    </div>
+    
 
     <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
